@@ -2,6 +2,7 @@
 #include<conio.h>
 int main(void)
 {
+  rerun:
    int a[50],n,temp;
    int i,j;
    puts("Enter the N value : ");
@@ -26,7 +27,8 @@ int main(void)
         printf("%d/n",i);
     }
 
-
+  goto rerun;
+   
     
     return 0;
 }
